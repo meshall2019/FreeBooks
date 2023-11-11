@@ -10,7 +10,7 @@ using infrastructure.Data;
 namespace infrastructure.Migrations
 {
     [DbContext(typeof(FreeBookDbContext))]
-    [Migration("20231111141746_FirstM")]
+    [Migration("20231111144950_FirstM")]
     partial class FirstM
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
