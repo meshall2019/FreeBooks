@@ -15,7 +15,7 @@ namespace Domin.Entity
         public Guid UserId { get; set; }
 
         public Guid SubCatergoryId {  get; set; }
-        [ForeignKey("CatergoryId")]
+        [ForeignKey("SubCatergoryId")]
         public SubCategory SubCategory { get; set; }
 
 

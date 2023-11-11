@@ -18,10 +18,10 @@ namespace Domin.Entity
         public string Description { get; set; }
         public bool Publish { get; set; }
 
-        public Guid CatergoryId { get; set; }
+        public Guid CategoryId { get; set; }
         [ForeignKey("CatergoryId")]
         public Category Category { get; set; }
-        public Guid SubCatergoryId { get; set; }
+        public Guid SubCategoryId { get; set; }
         [ForeignKey("SubCatergoryId")]
         public SubCategory SubCategory { get; set; }
 
