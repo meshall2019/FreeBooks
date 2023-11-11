@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBook", "WebBook\WebBook.csproj", "{949D2D3D-AE8A-43CC-A1E9-6FDDBADA2911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domin", "Domin\Domin.csproj", "{872C35D0-1D29-4802-9855-8A2C50DC372A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrastructure", "infrastructure\infrastructure.csproj", "{20996DCD-A6E3-4CC5-8AD4-64C01DD7B827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{949D2D3D-AE8A-43CC-A1E9-6FDDBADA2911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949D2D3D-AE8A-43CC-A1E9-6FDDBADA2911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949D2D3D-AE8A-43CC-A1E9-6FDDBADA2911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949D2D3D-AE8A-43CC-A1E9-6FDDBADA2911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872C35D0-1D29-4802-9855-8A2C50DC372A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872C35D0-1D29-4802-9855-8A2C50DC372A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872C35D0-1D29-4802-9855-8A2C50DC372A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872C35D0-1D29-4802-9855-8A2C50DC372A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20996DCD-A6E3-4CC5-8AD4-64C01DD7B827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20996DCD-A6E3-4CC5-8AD4-64C01DD7B827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20996DCD-A6E3-4CC5-8AD4-64C01DD7B827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20996DCD-A6E3-4CC5-8AD4-64C01DD7B827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D09D1345-E0AB-401C-9ABA-0DF4B55E837F}
+	EndGlobalSection
+EndGlobal
